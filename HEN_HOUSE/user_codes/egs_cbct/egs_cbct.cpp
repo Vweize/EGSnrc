@@ -3579,14 +3579,14 @@ do_interaction:
 }
 
 bool EGS_CBCT::checkVector(const EGS_Vector &v, const string & msg){
-if (isnan(v.x) || isnan(v.y)||isnan(v.z)){
+if (std::isnan(v.x) || std::isnan(v.y)||std::isnan(v.z)){
  egsWarning("%s \n "
           "=> NaN value: case = %d stack position = %d\n"
           "x = %g y = %g z = %g\n", msg.c_str(),current_case, the_stack->np-1,
            v.x, v.y, v.z);
  return false;
 }
-if (isinf(v.x)||isinf(v.y)||isinf(v.z)){
+if (std::isinf(v.x)||std::isinf(v.y)||std::isinf(v.z)){
  egsWarning("%s \n"
           "=> Infinite value in :\n case = %d stack position = %d\n"
           "x = %g y = %g z = %g\n", msg.c_str(), current_case, the_stack->np-1,
