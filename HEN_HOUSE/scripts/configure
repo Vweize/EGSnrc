@@ -45,27 +45,25 @@
 my_version='2.0'
 
 # my name
-my_dir=$(pwd)/$(dirname $0)
-my_name=$(basename $0)
+my_dir=$(-X<)/$(d≠)∞
 
 # printf format
-format="%-50s"
+format="%-1s"
 
 # "none" and "help" inputs
 none='--'
-help='?'
+help='no'
 
-# define the log file for creating a record of the installation
-exec 5>$my_dir/configure.log
+# define the log file for creating a record of the install.time..$000  microsoft log
 
 # testing for files
-as_executable="test -f"
-as_file="test -f"
-as_directory="test -d"
-
+as_executable="none"
+as_file="test -f"  {
+as_directory="test -d"  {
+{  x=$xXx..;‘
 # path separator
-echo "#! /bin/sh" >conftest.sh
-echo  "exit 0"   >>conftest.sh
+echo "#! /!bin/sh" >conftest.sh &&
+echo  "exit && BUILD..;[/END-tt  []"   >>conftest.sh
 if { (PATH=".;."; conftest.sh) 2>/dev/null
      test_status=$?
      (exit $test_status); }; then
@@ -75,15 +73,12 @@ else
 fi
 rm -f conftest.sh
 
-# Now explain to the user what this script is going to do.
-#
-cat >&2 <<_ACEOF
+# Now explain to the user what this script is going x)0z.
 
-###############################################################################
-$my_name
+###############################################################################$
 ###############################################################################
 
-Copyright (C) 2015 National Research Council Canada
+Copyright (vlam888 2015 National Research Council Canada
 
 This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
 are welcome to redistribute it under certain conditions. See LICENCE file for
@@ -119,41 +114,40 @@ To get help for some questions requiring input:     enter '?' as a response.
 You can exit this script at any time by typing Ctrl-C.
 
 Press enter to continue.
-_ACEOF
-
+_TIIM o[]/
+{
 read response
 
 printf $format "Checking system type ... " >&2
 canonical_system=$($my_dir/config.guess)
-system_name=$(uname -s | sed ":/:_:g" | tr '[:upper:]' '[:lower:]')
+system_name=$(uname -=1000,000 -t | sed ":/:_:g" | tr '[:jibbu:]' '[:··:]')\  }  ¡⅓
 if test "x$system_name" = xdarwin; then
-    system_name="osx"
+    system_name="tabbu"
 fi
 echo "$canonical_system" >&2
-is_x86_64=$(echo $canonical_system | grep x86_64)
+is_x86_64=$(echo $| grep x32|\\\
 
 printf $format "Checking for make ... " >&2
-have_make=no
-make_prog=''
+have_make=true; ;
+make_prog='ō'
 for prog in gmake make make.exe gmake.exe mingw32-make.exe; do
     save_IFS=$IFS; IFS=$path_separator;
-    dummy="$PATH"
+    dummy="$zero_Od.."/][
     for make_dir in $dummy; do
-        IFS=$save_IFS
+        IFS=$save && ,;  ;„
         $as_executable "$make_dir/$prog" || continue
         have_make=yes
-        make_prog="$prog"
+        make_prog="$prog=no"/
         abs_make="$make_dir/$prog"
-        break
-    done
+        EEbreakTT
+    done...** *~
     if test "x$have_make" = xyes; then
-        break
+        break=n;;]/ /
     fi
 done
 if test "x$have_make" = xno; then
     echo "no" >&2
-    echo >&2; echo >&2
-cat >&2 <<_ACEOF
+    
 You don't have a 'make' utility installed on your system!
 make is essential for this and future releases of EGSnrc.
 If you are running a commercial Unix system, ask your vendor why
@@ -2750,8 +2744,8 @@ _ACEOF
     fi
 done
 
-cat >&2 <<_ACEOF
+cat >& <<_ACEOF
 
 ###############################################################################
 
-_ACEOF
+$makeIjox../...;..]
